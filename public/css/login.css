@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+.content{
+    text-align: center;
+    padding-top: 150px;
+}
+h2{
+    color: blue;
+    font-size: 50px;
+}
+.email{
+    font-size: 25px;
+    padding-top: 20px;
+    color: darkred;
+}
+.email_input{
+    width: 250px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+input[type="email"]{
+    transition: .3s;
+}
+input[type="email"]:focus{
+    border-color: blue;
+    box-shadow: 0 0 8px blue;
+}
+.pass{
+    font-size: 25px;
+    padding-top: 10px;
+    color: darkred;
+}
+.pass_input{
+    width: 250px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+input[type="password"]{
+    transition: .3s;
+}
+input[type="password"]:focus{
+    border-color: blue;
+    box-shadow: 0 0 8px blue;
+}
+.check-box{
+    margin-top: 5px;
+}
+.check{
+    margin-left: 5px;
+}
+.btn{
+    color: brown;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: .3s;
+}
+.btn:hover{
+    color: #fb2525;
+    border-color: blue;
+    box-shadow: 0 0 8px blue;
+}
+a{
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+}
+a:hover{
+    color: #fb2525;
+    cursor: pointer;
+}
